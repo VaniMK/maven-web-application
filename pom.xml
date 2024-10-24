@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.31.224:9000/</sonar.host.url>
-		<sonar.login>squ_71817690eef2384cc9378677a0eb06d4c6734578</sonar.login>
+		<sonar.host.url>http://16.16.126.215:9000/</sonar.host.url>
+		<sonar.login>squ_59626f144de4650fd341b92f5a4313fbe1259b93</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -96,14 +96,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.18.88:9980/mithuntechnologies/repository/canarabank-releases/</url>
+	      <name>Releases Nexus Repository</name>
+	      <url>http://16.16.104.25:9980/vani/repository/facebook-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.18.88:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://16.16.104.25:9980/vani/repository/facebook-qa/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
